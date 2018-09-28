@@ -7,5 +7,6 @@ image:
 	git clone https://github.com/armbian/build --depth 1
 	cp -ar build/* MuCuBox/
 	rm -rf build
-	cd MuCoBox
+	mv MuCoBox build
+	cd build
 	./compile docker
