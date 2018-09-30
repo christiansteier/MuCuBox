@@ -1,9 +1,9 @@
-.PHONY: all image
+.PHONY: all rompr
 
-all: image
+all: rompr
 
-image:
-	git clone https://github.com/christiansteier/MuCuBox.git --depth 1
+rompr:
+	git clone -b rompr https://github.com/christiansteier/MuCuBox.git --depth 1
 	git clone https://github.com/armbian/build --depth 1
 	cp -ar build/* MuCuBox/
 	rm -rf build
