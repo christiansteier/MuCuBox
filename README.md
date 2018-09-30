@@ -5,7 +5,7 @@ Music CuBox is an Armbian based audioplayer for Cubox-i to play music from USB o
 ## Build with Docker
 Use make to build automagical.
 
-### With RompR
+### RompR
 https://fatg3erman.github.io/RompR/
 ```
 git clone https://github.com/christiansteier/MuCuBox.git --depth 1
