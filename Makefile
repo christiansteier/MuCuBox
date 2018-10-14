@@ -9,4 +9,4 @@ rompr:
 	rm -rf build
 	mv MuCuBox build
 	cd build
-	./compile docker
+	./compile.sh docker
