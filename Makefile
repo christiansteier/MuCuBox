@@ -8,5 +8,4 @@ rompr:
 	cp -ar build/* MuCuBox/
 	rm -rf build
 	mv MuCuBox build
-	cd build
-	./compile.sh docker
+	build/compile.sh docker
