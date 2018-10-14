@@ -51,6 +51,7 @@ Additional() {
 
 Filesystem() {
 	$APTINSTALL ntfs-3g dosfstools exfat-utils sshfs cifs-utils curlftpfs udevil dosfstools
+	mkdir -p /mnt/MPD/USB
 }
 
 Audio() {
