@@ -7,6 +7,6 @@ rompr:
 	git clone https://github.com/armbian/build --depth 1
 	cp -ar build/* MuCuBox/
 	rm -rf build
-	mv MuCoBox build
+	mv MuCuBox build
 	cd build
 	./compile docker
