@@ -50,16 +50,16 @@ Additional() {
 }
 
 Filesystem() {
-	$APTINSTALL ntfs-3g dosfstools exfat-utils sshfs cifs-utils curlftpfs udevil dosfstools
+	$APTINSTALL dosfstools ntfs-3g exfat-fuse exfat-utils hfsprogs hfsutils sshfs cifs-utils curlftpfs udevil
 	mkdir -p /mnt/MPD/USB
 }
 
 Audio() {
-	$APTINSTALL sox jack libopus0 mpd mpc
+	$APTINSTALL ssox jack libopus0 libfaad2 libmad0 libmms0 libid3tag0 libaudiofile1 mpg123 libpulse0 libav-tools bs2b-ladspa libbs2b0 libasound2-plugin-equal mpd mpc
 }
 
 Network() {
-	$APTINSTALL avahi-daemon avahi-utils avahi-autoipd libnss-mdns ifplugd libupnp6 libxml2 yasm shairport-sync
+	$APTINSTALL avahi-daemon avahi-utils avahi-autoipd libnss-mdns ifplugd libupnp6 libxml2 yasm shairport-sync samba smbclient
 }
 
 InstallRompr() {
